@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-01T10:35:33.364Z</updated>
+  <updated>2020-06-06T13:27:08.889Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -16,15 +16,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>自动化工具fastlane</title>
+    <link href="http://ilisheng.me/2020/06/06/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7fastlane/"/>
+    <id>http://ilisheng.me/2020/06/06/自动化工具fastlane/</id>
+    <published>2020-06-06T13:25:30.000Z</published>
+    <updated>2020-06-06T13:27:08.889Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="http://nomad-cli.com/" target="_blank" rel="external">link1</a></li>
+<li><a href="https://github.com/mythkiven/AD_Fastlane" target="_blank" rel="external">link2</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/23180455" target="_blank" rel="external">link3</a></li>
+<li><a href="http://lynchwong.github.io/2016/06/28/Fastlane-Spaceship/" target="_blank" rel="external">link4</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/22973035" target="_blank" rel="external">Fastlane实战系列</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/20739972" target="_blank" rel="external">截图</a></li>
+<li><a href="https://icyleaf.com/2016/07/fastlane-in-action/" target="_blank" rel="external">输出</a></li>
+</ol>
+<h3 id="u9047_u5230_u95EE_u9898"><a href="#u9047_u5230_u95EE_u9898" class="headerlink" title="遇到问题"></a>遇到问题</h3><ol>
+<li>重新安装ruby，brew install ruby | gem install fastlane</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u53C2_u8003&quot;&gt;&lt;a href=&quot;#u53C2_u8003&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://nomad-cli.com/&quot; target=&quot;_blank
+    
+    </summary>
+    
+      <category term="工具" scheme="http://ilisheng.me/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="fastlane" scheme="http://ilisheng.me/tags/fastlane/"/>
+    
+  </entry>
+  
+  <entry>
     <title>WKWebView相关</title>
     <link href="http://ilisheng.me/2020/06/01/WKWebView%E7%9B%B8%E5%85%B3/"/>
     <id>http://ilisheng.me/2020/06/01/WKWebView相关/</id>
     <published>2020-06-01T10:32:08.000Z</published>
-    <updated>2020-06-01T10:35:33.364Z</updated>
+    <updated>2020-06-01T10:47:06.158Z</updated>
     
     <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MzI1MTE2NTE1Ng==&amp;mid=2649516616&amp;idx=1&amp;sn=c16a7fc0ddaee2a6d5e1ad10373af9e3&amp;chksm=f1efeac3c69863d5942da9ba250c39e29af97a7c1ac22fce49d65dc3967c49c811b0f566b2c6#rd" target="_blank" rel="external">参考1</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/31368159" target="_blank" rel="external"> iOS 与 JS 交互</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/31368159" target="_blank" rel="external">iOS 与 JS 交互</a></li>
 <li><a href="https://tech.meituan.com/2018/08/23/deep-understanding-of-jscore.html" target="_blank" rel="external">深入理解JSCore</a></li>
 </ol>
 ]]></content>
