@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-06T13:27:08.889Z</updated>
+  <updated>2020-06-07T14:08:36.623Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用fastlane多target打包</title>
+    <link href="http://ilisheng.me/2020/06/07/%E4%BD%BF%E7%94%A8fastlane%E5%A4%9Atarget%E6%89%93%E5%8C%85/"/>
+    <id>http://ilisheng.me/2020/06/07/使用fastlane多target打包/</id>
+    <published>2020-06-07T14:06:47.000Z</published>
+    <updated>2020-06-07T14:08:36.623Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="https://www.jianshu.com/p/6a9a5b6f70a0" target="_blank" rel="external">link1</a></li>
+<li><a href="https://www.jianshu.com/p/6a9a5b6f70a0" target="_blank" rel="external">link2</a></li>
+<li><a href="https://juejin.im/post/5a7d51986fb9a063435ece35#heading-8" target="_blank" rel="external">link3</a></li>
+<li><a href="https://docs.fastlane.tools/actions/update_app_identifier/" target="_blank" rel="external">update_app_identifier</a></li>
+<li><a href="https://docs.fastlane.tools/actions/update_app_group_identifiers/" target="_blank" rel="external">update_app_group_identifiers</a></li>
+<li><a href="https://s0docs0fastlane0tools.icopy.site/actions/update_project_provisioning/" target="_blank" rel="external">update_project_provisioning</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u53C2_u8003&quot;&gt;&lt;a href=&quot;#u53C2_u8003&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/6a9a5b6f70a
+    
+    </summary>
+    
+      <category term="工具" scheme="http://ilisheng.me/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="fastlane" scheme="http://ilisheng.me/tags/fastlane/"/>
+    
+  </entry>
   
   <entry>
     <title>自动化工具fastlane</title>
