@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-12T14:20:08.202Z</updated>
+  <updated>2020-06-13T14:27:46.700Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UITextView允许光标切换到任意位置</title>
+    <link href="http://ilisheng.me/2020/06/13/UITextView%E5%85%81%E8%AE%B8%E5%85%89%E6%A0%87%E5%88%87%E6%8D%A2%E5%88%B0%E4%BB%BB%E6%84%8F%E4%BD%8D%E7%BD%AE/"/>
+    <id>http://ilisheng.me/2020/06/13/UITextView允许光标切换到任意位置/</id>
+    <published>2020-06-13T14:27:11.000Z</published>
+    <updated>2020-06-13T14:27:46.700Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="https://stackoverflow.com/questions/41309999/allow-cursor-selection-anywhere-in-uitextview" target="_blank" rel="external">link1</a></li>
+<li><a href="https://code5.cn/so/ios/1531568" target="_blank" rel="external">link2</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u53C2_u8003&quot;&gt;&lt;a href=&quot;#u53C2_u8003&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/4
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://ilisheng.me/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="http://ilisheng.me/tags/iOS/"/>
+    
+  </entry>
   
   <entry>
     <title>iOS富文本编辑器实现方案</title>
