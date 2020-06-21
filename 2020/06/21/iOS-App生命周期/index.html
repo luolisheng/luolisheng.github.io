@@ -86,22 +86,69 @@
 
 
 
-<meta name="description" content="参考
-基于WebView
-基于原生">
+<meta name="description" content="一、iOSApp五种状态
+5种状态
+Not running
+App还没有启动或者已经被系统终止
+
+
+Inactive
+App正在前台运行，但此时还不能接收事件
+这是一个短暂的过渡状态，会很快进入Active或Background状态
+
+
+Active
+App正在前台运行，能接收事件
+
+
+Background
+App处于后台，但还能执行代码；通常只能保持5秒
+可以通过beginBackgroundT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="iOS富文本编辑器实现方案">
-<meta property="og:url" content="http://ilisheng.me/2020/06/12/iOS富文本编辑器实现方案/index.html">
+<meta property="og:title" content="iOS App生命周期">
+<meta property="og:url" content="http://ilisheng.me/2020/06/21/iOS-App生命周期/index.html">
 <meta property="og:site_name" content="罗力胜">
-<meta property="og:description" content="参考
-基于WebView
-基于原生">
-<meta property="og:updated_time" content="2020-06-12T14:20:08.202Z">
+<meta property="og:description" content="一、iOSApp五种状态
+5种状态
+Not running
+App还没有启动或者已经被系统终止
+
+
+Inactive
+App正在前台运行，但此时还不能接收事件
+这是一个短暂的过渡状态，会很快进入Active或Background状态
+
+
+Active
+App正在前台运行，能接收事件
+
+
+Background
+App处于后台，但还能执行代码；通常只能保持5秒
+可以通过beginBackgroundT">
+<meta property="og:image" content="http://zxfcumtcs.github.io/img/StatechangesiOSapp.png">
+<meta property="og:image" content="http://zxfcumtcs.github.io/img/apptimelimit.png">
+<meta property="og:updated_time" content="2020-06-21T14:22:43.846Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="iOS富文本编辑器实现方案">
-<meta name="twitter:description" content="参考
-基于WebView
-基于原生">
+<meta name="twitter:title" content="iOS App生命周期">
+<meta name="twitter:description" content="一、iOSApp五种状态
+5种状态
+Not running
+App还没有启动或者已经被系统终止
+
+
+Inactive
+App正在前台运行，但此时还不能接收事件
+这是一个短暂的过渡状态，会很快进入Active或Background状态
+
+
+Active
+App正在前台运行，能接收事件
+
+
+Background
+App处于后台，但还能执行代码；通常只能保持5秒
+可以通过beginBackgroundT">
 
 
 
@@ -129,13 +176,13 @@
 
 
 
-  <link rel="canonical" href="http://ilisheng.me/2020/06/12/iOS富文本编辑器实现方案/"/>
+  <link rel="canonical" href="http://ilisheng.me/2020/06/21/iOS-App生命周期/"/>
 
 
 
 
 
-  <title> iOS富文本编辑器实现方案 | 罗力胜 </title>
+  <title> iOS App生命周期 | 罗力胜 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -266,7 +313,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://ilisheng.me/2020/06/12/iOS富文本编辑器实现方案/">
+  <link itemprop="mainEntityOfPage" href="http://ilisheng.me/2020/06/21/iOS-App生命周期/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="罗力胜">
@@ -290,7 +337,7 @@
             
             
               
-                iOS富文本编辑器实现方案
+                iOS App生命周期
               
             
           </h1>
@@ -303,8 +350,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Дата создания записи" itemprop="dateCreated datePublished" datetime="2020-06-12T22:19:29+08:00">
-                2020-06-12
+              <time title="Дата создания записи" itemprop="dateCreated datePublished" datetime="2020-06-21T22:20:58+08:00">
+                2020-06-21
               </time>
             
 
@@ -337,8 +384,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2020/06/12/iOS富文本编辑器实现方案/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/06/12/iOS富文本编辑器实现方案/" itemprop="commentCount"></span>
+                <a href="/2020/06/21/iOS-App生命周期/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/06/21/iOS-App生命周期/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -348,7 +395,7 @@
 
           
           
-             <span id="/2020/06/12/iOS富文本编辑器实现方案/" class="leancloud_visitors" data-flag-title="iOS富文本编辑器实现方案">
+             <span id="/2020/06/21/iOS-App生命周期/" class="leancloud_visitors" data-flag-title="iOS App生命周期">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -373,9 +420,128 @@
       
 
       
-        <h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
-<li><a href="https://wereadteam.github.io/2016/09/21/RichEditor/" target="_blank" rel="external">基于WebView</a></li>
-<li><a href="https://github.com/littleMeaning/LMNote" target="_blank" rel="external">基于原生</a></li>
+        <h3 id="u4E00_u3001iOSApp_u4E94_u79CD_u72B6_u6001"><a href="#u4E00_u3001iOSApp_u4E94_u79CD_u72B6_u6001" class="headerlink" title="一、iOSApp五种状态"></a>一、iOSApp五种状态</h3><ol>
+<li>5种状态<ol>
+<li>Not running<ul>
+<li>App还没有启动或者已经被系统终止</li>
+</ul>
+</li>
+<li>Inactive<ul>
+<li>App正在前台运行，但此时还不能接收事件</li>
+<li>这是一个短暂的过渡状态，会很快进入Active或Background状态</li>
+</ul>
+</li>
+<li>Active<ul>
+<li>App正在前台运行，能接收事件</li>
+</ul>
+</li>
+<li>Background<ul>
+<li>App处于后台，但还能执行代码；通常只能保持5秒</li>
+<li>可以通过beginBackgroundTaskWithExpirationHandler申请延长后台时间，延长时间不超过600秒</li>
+</ul>
+</li>
+<li>Suspended<ul>
+<li>App处于后台，依然在内存中但不能执行代码</li>
+<li>当系统内存低是可能会被逐出内存</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>App在5种状态间的转换流程图<br> <img src="http://zxfcumtcs.github.io/img/StatechangesiOSapp.png" alt="转换流程图"></li>
+<li>App生命周期有关的几个时间规则<br> <img src="http://zxfcumtcs.github.io/img/apptimelimit.png" alt="时间规则"></li>
+</ol>
+<h3 id="u4E8C_u3001Launch_u200B_Options_Keys"><a href="#u4E8C_u3001Launch_u200B_Options_Keys" class="headerlink" title="二、Launch​ Options Keys"></a>二、Launch​ Options Keys</h3><ol>
+<li>无论App在前台启动还是后台启动，能参与控制启动的两个点分别是appdelegate的两个回调；在这两回调中要确认App因何启动，还要准备app在启动过程中需要的数据和展示的UI<ol>
+<li>application:willFinishLaunchingWithOptions:</li>
+<li>application:didFinishLaunchingWithOptions:<ul>
+<li>此方法返回后UIKit才会将window显示在屏幕上</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>launchOptions记录了app启动原因以及相应的参数信息<ol>
+<li>nil：直接点icon启动</li>
+<li>UIApplicationLaunchOptionsURLKey：App因openUrl启动</li>
+<li>UIApplicationLaunchOptionsSourceApplicationKey：App因openUrl启动，启动App的bundle id</li>
+<li>UIApplicationLaunchOptionsRemoteNotificationKey<ul>
+<li>App响应远程推送消息在前台启动</li>
+<li>App响应静默推送消息在后台启动</li>
+</ul>
+</li>
+<li>UIApplicationLaunchOptionsLocalNotificationKey：App响应本地推送前台启动</li>
+<li>UIApplicationLaunchOptionsLocationKey：APP因为一个位置相关的事件而启动<ul>
+<li>地理围栏越界App在后台启动</li>
+</ul>
+</li>
+<li>UIApplicationLaunchOptionsBluetoothCentralsKey：蓝牙在后台启动App来初始化中心设备</li>
+<li>UIApplicationLaunchOptionsBluetoothPeripheralsKey：蓝牙在后台启动App来初始化周边设备</li>
+<li>UIApplicationLaunchOptionsShortcutItemKey：3D Touch启动App</li>
+<li>其他启动Key<ul>
+<li>UIApplicationLaunchOptionsUserActivityDictionaryKey</li>
+<li>UIApplicationLaunchOptionsUserActivityTypeKey</li>
+<li>UIApplicationLaunchOptionsCloudKitShareMetadataKey</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>前台启动App<ul>
+<li>状态：not running –&gt; inactvie –&gt; active</li>
+<li>系统创建一个新的进程已经主线程 –&gt; 主线程上调用main函数 –&gt; UIApplicationMain<ol>
+<li>application:willFinishLaunchingWithOptions:</li>
+<li>application:didFinishLaunchingWithOptions:</li>
+<li>展示UI</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>后台启动App<ul>
+<li>状态：后台启动进入background –&gt; 处理事件 –&gt; Suspended</li>
+<li>系统创建一个新的进程已经主线程 –&gt; 主线程上调用main函数 –&gt; UIApplicationMain<ol>
+<li>application:willFinishLaunchingWithOptions:</li>
+<li>application:didFinishLaunchingWithOptions:</li>
+<li>不展示UI</li>
+</ol>
+</li>
+<li>后台事件类型<ul>
+<li>系统接收到silent push</li>
+<li>系统启动 app 执行 background fetch 任务</li>
+<li>background transfer 相关的事件，如任务完成、失败或需要鉴权等</li>
+<li>newsstand apps、location apps、audio apps以及bluetooth apps收到相应的事件</li>
+</ul>
+</li>
+<li><strong>App能在后台启动的前提是用户没有在任务中心强制将app kill掉(iOS8 下的location apps除外)？？待验证</strong></li>
+</ul>
+</li>
+<li>判断前台启动还是后台启动：application:[will | did]FinishLaunchingWithOptions<ul>
+<li>UIApplicationStateInactive：前台启动</li>
+<li>UIApplicationStateBackground：后台启动</li>
+</ul>
+</li>
+</ol>
+<h3 id="openURL_u6253_u5F00App"><a href="#openURL_u6253_u5F00App" class="headerlink" title="openURL打开App"></a>openURL打开App</h3><ol>
+<li>前台启动App<ul>
+<li>application:[will | did]FinishLaunchingWithOptions两个函数中判断能否处理该url</li>
+<li>两个函数都返回YES，进入application:openURL:sourceApplication:annotation:</li>
+</ul>
+</li>
+<li>后台启动App<ul>
+<li>Background –&gt; Active</li>
+</ul>
+</li>
+</ol>
+<h3 id="u4E34_u65F6_u4E2D_u65AD"><a href="#u4E34_u65F6_u4E2D_u65AD" class="headerlink" title="临时中断"></a>临时中断</h3><ol>
+<li>电话、打开通知中心、打开控制中心<ul>
+<li>App依然在前台运行，但其状态转换为inactive，不能接收touch events，可以继续接收notifactions以及其他events</li>
+<li>调用applicationWillResignActive:回调</li>
+</ul>
+</li>
+<li>忽略临时中断操作<ul>
+<li>调用applicationDidBecomeActive:回调</li>
+</ul>
+</li>
+</ol>
+<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="http://zxfcumtcs.github.io/2014/10/26/iosapplifecycle/" target="_blank" rel="external">link1</a></li>
 </ol>
 
       
@@ -425,8 +591,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/06/07/使用fastlane多target打包/" rel="next" title="使用fastlane多target打包">
-                <i class="fa fa-chevron-left"></i> 使用fastlane多target打包
+              <a href="/2020/06/21/App程序间文档共享/" rel="next" title="App程序间文档共享">
+                <i class="fa fa-chevron-left"></i> App程序间文档共享
               </a>
             
           </div>
@@ -434,10 +600,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/06/13/UITextView允许光标切换到任意位置/" rel="prev" title="UITextView允许光标切换到任意位置">
-                UITextView允许光标切换到任意位置 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -591,7 +753,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u53C2_u8003"><span class="nav-number">1.</span> <span class="nav-text">参考</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E00_u3001iOSApp_u4E94_u79CD_u72B6_u6001"><span class="nav-number">1.</span> <span class="nav-text">一、iOSApp五种状态</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E8C_u3001Launch_u200B_Options_Keys"><span class="nav-number">2.</span> <span class="nav-text">二、Launch​ Options Keys</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#openURL_u6253_u5F00App"><span class="nav-number">3.</span> <span class="nav-text">openURL打开App</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E34_u65F6_u4E2D_u65AD"><span class="nav-number">4.</span> <span class="nav-text">临时中断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u53C2_u8003"><span class="nav-number">5.</span> <span class="nav-text">参考</span></a></li></ol></div>
             
 
           </div>
@@ -715,9 +877,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'ilisheng';
-      var disqus_identifier = '2020/06/12/iOS富文本编辑器实现方案/';
+      var disqus_identifier = '2020/06/21/iOS-App生命周期/';
 
-      var disqus_title = "iOS富文本编辑器实现方案";
+      var disqus_title = "iOS App生命周期";
 
 
       function run_disqus_script(disqus_script) {
