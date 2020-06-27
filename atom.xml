@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-21T14:22:43.846Z</updated>
+  <updated>2020-06-27T14:37:34.928Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOS后台唤醒App播放铃声和震动</title>
+    <link href="http://ilisheng.me/2020/06/27/iOS%E5%90%8E%E5%8F%B0%E5%94%A4%E9%86%92App%E6%92%AD%E6%94%BE%E9%93%83%E5%A3%B0%E5%92%8C%E9%9C%87%E5%8A%A8/"/>
+    <id>http://ilisheng.me/2020/06/27/iOS后台唤醒App播放铃声和震动/</id>
+    <published>2020-06-27T14:02:20.000Z</published>
+    <updated>2020-06-27T14:37:34.928Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/../iOS后台唤醒App播放铃声和震动/iOS后台唤醒App播放铃声和震动.png" alt="iOS后台唤醒App播放铃声和震动"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/../iOS后台唤醒App播放铃声和震动/iOS后台唤醒App播放铃声和震动.png&quot; alt=&quot;iOS后台唤醒App播放铃声和震动&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://ilisheng.me/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="http://ilisheng.me/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS音频相关</title>
+    <link href="http://ilisheng.me/2020/06/27/iOS%E9%9F%B3%E9%A2%91%E7%9B%B8%E5%85%B3/"/>
+    <id>http://ilisheng.me/2020/06/27/iOS音频相关/</id>
+    <published>2020-06-27T13:08:54.000Z</published>
+    <updated>2020-06-27T13:09:18.588Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="https://cz-it.gitbooks.io/play-and-record-with-coreaudio/content/coreaudio/" target="_blank" rel="external">link1</a></li>
+<li><a href="http://msching.github.io/blog/2014/07/07/audio-in-ios/" target="_blank" rel="external">link2</a></li>
+<li><a href="http://blog.csdn.net/jiangyiaxiu/article/details/9190035" target="_blank" rel="external">link3</a></li>
+<li><a href="https://segmentfault.com/a/1190000007474125" target="_blank" rel="external">link4</a></li>
+<li><a href="http://www.devzhang.cn/2016/04/20/AVAudioPlayer%E4%B8%AD%E6%96%AD%E5%A4%84%E7%90%86/" target="_blank" rel="external">中断处理</a></li>
+<li><a href="https://objccn.io/issue-24-4/" target="_blank" rel="external">link5</a></li>
+<li><a href="https://juejin.im/post/5acf6d726fb9a028e25df3e5" target="_blank" rel="external">link6</a></li>
+<li><a href="https://juejin.im/entry/5b349389e51d4558c7137078" target="_blank" rel="external">AVAudioEngine</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u53C2_u8003&quot;&gt;&lt;a href=&quot;#u53C2_u8003&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://cz-it.gitbooks.io/play-and-re
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://ilisheng.me/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="http://ilisheng.me/tags/iOS/"/>
+    
+  </entry>
   
   <entry>
     <title>iOS App生命周期</title>
@@ -227,7 +284,7 @@
     <link href="http://ilisheng.me/2020/06/14/App%E6%89%A9%E5%B1%95/"/>
     <id>http://ilisheng.me/2020/06/14/App扩展/</id>
     <published>2020-06-14T13:25:36.000Z</published>
-    <updated>2020-06-14T13:26:04.259Z</updated>
+    <updated>2020-06-27T13:54:35.918Z</updated>
     
     <content type="html"><![CDATA[<h3 id="u7B80_u4ECB"><a href="#u7B80_u4ECB" class="headerlink" title="简介"></a>简介</h3><ol>
 <li>扩展让App间数据交换成为可能，用户可以在 app 中使用其他应用提供的功能，而无需离开当前的应用</li>
