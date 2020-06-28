@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-28T00:28:56.828Z</updated>
+  <updated>2020-06-28T05:11:29.195Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -17,18 +17,17 @@
   
   <entry>
     <title>iOS后台唤醒App播放铃声和震动</title>
-    <link href="http://ilisheng.me/2020/06/27/iOS%E5%90%8E%E5%8F%B0%E5%94%A4%E9%86%92App%E6%92%AD%E6%94%BE%E9%93%83%E5%A3%B0%E5%92%8C%E9%9C%87%E5%8A%A8/"/>
-    <id>http://ilisheng.me/2020/06/27/iOS后台唤醒App播放铃声和震动/</id>
-    <published>2020-06-27T14:02:20.000Z</published>
-    <updated>2020-06-28T00:28:56.828Z</updated>
+    <link href="http://ilisheng.me/2020/06/28/iOS%E5%90%8E%E5%8F%B0%E5%94%A4%E9%86%92App%E6%92%AD%E6%94%BE%E9%93%83%E5%A3%B0%E5%92%8C%E9%9C%87%E5%8A%A8/"/>
+    <id>http://ilisheng.me/2020/06/28/iOS后台唤醒App播放铃声和震动/</id>
+    <published>2020-06-28T01:36:57.000Z</published>
+    <updated>2020-06-28T05:11:29.195Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/ios_app_background_wakeup.png" alt="iOS后台唤醒App播放铃声和震动"></p>
+    <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/luolisheng/BlogPicBed/master/img/PicGo-PicBed/ios_app_background_wakeup.png" alt="iOS后台唤醒App播放铃声和震动"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/ios_app_background_wakeup.png&quot; alt=&quot;iOS后台唤醒App播放铃声和震动&quot;&gt;&lt;/p&gt;
-
+      &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/luolisheng/BlogPicBed/master/img/PicGo-PicBed/ios_app_background_wakeup.png&quot; alt=&quot;iOS后台唤醒App播
     
     </summary>
     
