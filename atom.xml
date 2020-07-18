@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ilisheng.me/"/>
-  <updated>2020-06-28T08:39:53.537Z</updated>
+  <updated>2020-07-18T08:53:20.241Z</updated>
   <id>http://ilisheng.me/</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>VoIP(PushKit)和CallKit</title>
+    <link href="http://ilisheng.me/2020/07/18/VoIP-PushKit-%E5%92%8CCallKit/"/>
+    <id>http://ilisheng.me/2020/07/18/VoIP-PushKit-和CallKit/</id>
+    <published>2020-07-18T08:52:05.000Z</published>
+    <updated>2020-07-18T08:53:20.241Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="u53C2_u8003"><a href="#u53C2_u8003" class="headerlink" title="参考"></a>参考</h3><ol>
+<li><a href="https://www.v2ex.com/t/609787" target="_blank" rel="external">link1</a></li>
+<li><a href="https://juejin.im/post/5ae194adf265da0b9d77eb87" target="_blank" rel="external">link2</a></li>
+<li><a href="https://juejin.im/post/5d1c728ef265da1bc8544550" target="_blank" rel="external">link3</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1071796" target="_blank" rel="external">微信收款到账声音</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1572326" target="_blank" rel="external">微信收款到账声音2</a></li>
+<li><a href="http://littleliang.xyz/2018/09/05/How-To-Implement-WeChat-Speech/" target="_blank" rel="external">微信收款到账声音2</a></li>
+<li><a href="https://support.rongcloud.cn/ks/MTAzMg==" target="_blank" rel="external">iOS13 VoIP 推送问题说明</a></li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;u53C2_u8003&quot;&gt;&lt;a href=&quot;#u53C2_u8003&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.v2ex.com/t/609787&quot; target
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://ilisheng.me/categories/iOS/"/>
+    
+    
+      <category term="iOS" scheme="http://ilisheng.me/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>iOS后台唤醒App播放铃声和震动</title>
     <link href="http://ilisheng.me/2020/06/28/iOS%E5%90%8E%E5%8F%B0%E5%94%A4%E9%86%92App%E6%92%AD%E6%94%BE%E9%93%83%E5%A3%B0%E5%92%8C%E9%9C%87%E5%8A%A8/"/>
     <id>http://ilisheng.me/2020/06/28/iOS后台唤醒App播放铃声和震动/</id>
     <published>2020-06-28T01:36:57.000Z</published>
-    <updated>2020-06-28T08:39:53.537Z</updated>
+    <updated>2020-06-28T09:25:29.479Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/luolisheng/BlogPicBed/img/PicGo-PicBed/ios_app_background_wakeup_jsd.png" alt="iOS后台唤醒App播放铃声和震动"></p>
 ]]></content>
